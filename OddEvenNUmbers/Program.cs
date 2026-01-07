@@ -23,27 +23,7 @@
 
     }
 
-    static bool IsEven(int numebrs)
-    {
-        if(numebrs%2==0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+    static bool IsEven(int numebrs) => numebrs % 2 == 0;
 
-    static bool IsOdd(int numebrs)
-    {
-        if (numebrs % 2 != 0)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+    static bool IsOdd(int numebrs) => numebrs % 2 != 0;
 }
